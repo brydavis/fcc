@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	lat, long := 47.6097, -122.3331 // 47.579681, -122.306896
+	lat, long := 47.6097, -122.3331 // Coordinates of Interest
 
 	fmt.Println(Fips(lat, long))
 }
